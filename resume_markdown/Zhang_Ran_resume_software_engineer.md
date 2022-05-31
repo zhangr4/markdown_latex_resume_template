@@ -3,7 +3,7 @@ name: Zhang Ran
 contact-info:
 - 'Email: [ran.zhang863@hotmail.com](mailto:ran.zhang863@hotmail.com)'
 - 'Phone: 8942 3531'
-...
+---
 
 # Work Experience
 
@@ -30,7 +30,7 @@ contact-info:
     - Migrated database into AWS RDS
     - Created client to communicate with machine learning module
 
-## Environmental Market Solutions Inc.
+## Environmental Market Solutions Inc
 
 - 2020.10 ~ 2021.01 | **Senior Project Engineer**
   - Lead a group four exploring business services on ESG(Environment, Social, Governance)

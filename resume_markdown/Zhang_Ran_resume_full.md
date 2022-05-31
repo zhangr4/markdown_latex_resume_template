@@ -3,7 +3,7 @@ name: Zhang Ran
 contact-info:
 - 'Email: [ran.zhang863@hotmail.com](mailto:ran.zhang863@hotmail.com)'
 - 'Phone: 8942 3531'
-...
+---
 
 # Work Experience
 
@@ -31,7 +31,7 @@ contact-info:
 
     - Set Aliyun cloud server in China mainland and create CI/CD pipeline for deploy with proxy server.
 
-## Environmental Market Solutions Inc.
+## Environmental Market Solutions Inc
 
 - 2020.10 ~ 2021.01 | **Senior Project Engineer**
 
@@ -89,7 +89,7 @@ contact-info:
 
   - *ESR Kendall Square, Seoul*
 
-    - Independently inplement on site WELL performance test, including indoor/outdoor air quality(CO2, O3, PM2.5/PM10, Formaldehyde), drinking water, handwashing water quality test, background sound level test, lighting level test, etc. 
+    - Independently inplement on site WELL performance test, including indoor/outdoor air quality(CO2, O3, PM2.5/PM10, Formaldehyde), drinking water, handwashing water quality test, background sound level test, lighting level test, etc.
 
 # Education
 
