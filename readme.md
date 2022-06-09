@@ -14,45 +14,61 @@ familiar with latex
 
 ## how to use it
 
-    customize your resume under ./resume_markdown
+customize your resume under ./resume_markdown
 
-    under ./, run . pdf.sh
+under `./`, run `. pdf.sh` can pass file name as args like `. pdf.sh resume.md` while `./resume_markdown` has a file name resume.md
 
-    if you want to change the layout, customize the template file nder ./resume_template
+### use docker
+
+the docker file follow [github repository](https://github.com/john-bokma/resume-pandoc) of John Bokma
+
+run
+
+```sh
+    docker build -t pandoc .
+```
+
+then move your resume file to current directory, name it resume.md and run
+
+```sh
+    docker run --rm --volume "$(pwd):/data" --user $(id -u):$(id -g) pandoc \
+    resume.md -s -f markdown+yaml_metadata_block \
+    --template resume_template/resume_template.latex -o resume.pdf;
+```
 
 ## YAML Meta Block
 
 name
- : the name on the resume.
+: the name on the resume.
 
 contact-info
- : email and phone number, etc. use "|" connect by default
+: email and phone number, etc. use "|" connect by default
 
 fontsize
- : default `10pt`.
+: default `10pt`.
 
 fontenc
- : default `T1`.
+: default `T1`.
 
 urlcolor
- : used in PDF, default `blue`.
+: used in PDF, default `blue`.
 
 linkcolor
- : used in PDF, default `magenta`.
+: used in PDF, default `magenta`.
 
 numbersections
- : number sections, default off. Can also be controlled using the
- `pandoc` option `-N, --number-sections`.
+: number sections, default off. Can also be controlled using the
+`pandoc` option `-N, --number-sections`.
 
 name-color
- : the SVG name of the font color used for your name on the
- resume. For example `DarkSlateGray`. Note that this option
- also changes the font used for your name to bold and sans serif.
+: the SVG name of the font color used for your name on the
+resume. For example `DarkSlateGray`. Note that this option
+also changes the font used for your name to bold and sans serif.
 
 section-color
- : the SVG name of the font color used for sections. For example
- `Tomato`.  Note that this option also changes the section font to
- bold and sans serif.
+: the SVG name of the font color used for sections. For example
+`Tomato`. Note that this option also changes the section font to
+bold and sans serif.
 
 Regarding the last two options: if you just want to change the font to
 sans serif bold you can just use the color `black`.
