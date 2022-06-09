@@ -10,52 +10,52 @@ contact-info:
 ## An Xing Technology Pte Ltd
 
 - 2021.09 ~ 2022.01 | **Intern - Backend Engineer**
-  - Develop new features for e-commerce app backend
-  - Fix bugs and refactor on existing code
-  - Dockerise backend stacks including Nginx, Wordpress, Laravel, MySql
-  - develop CI/CD pipeline for backend stack
+  - Developed new features for e-commerce app backend
+  - Fixed bugs and refactor on existing code
+  - Containerized backend stacks including Nginx, Wordpress, Laravel, MySql
+  - Developed CI/CD pipeline for backend stack
 
 - **project**
 
   - [GaiGai](https://gaigai.com/)
-    - Create features converting app from trade platform to selling products by itself
-    - Decrease loading time for login and payment function in backend
+    - Created features converting app from trade platform to selling products by itself
+    - Decreased loading time for login and payment function in backend
     - Set Aliyun cloud server in china mainland and create CI/CD pipeline for deploy with proxy server.
 
   - **JIU** (e-commerce App from scratch)
     - Created a wordpress plugin for Alipay authorization
   
   - **AD Project** (job portal App)
-    - Creatd backend services: authentication, RESTful API, etc
+    - Created backend services: authentication, RESTful API, etc
     - Migrated database into AWS RDS
     - Created client to communicate with machine learning module
 
 ## Environmental Market Solutions Inc
 
 - 2020.10 ~ 2021.01 | **Senior Project Engineer**
-  - Lead a group four exploring business services on ESG(Environment, Social, Governance)
+  - Led a group of four exploring business services on ESG(Environment, Social, Governance)
 
 - 2016.10 ~ 2020.09 | **Project Engineer**
-  - Support project manager, help more than 20+ buildings achieve LEED/WELL/CGBL/Green Mark certification
-  - Inplement on-site testing and commissioning for 5+ buildings
+  - Supported project manager helping 20 buildings achieve LEED/WELL/CGBL/Green Mark certification
+  - Implemented on-site testing and commissioning for 5 buildings
 
 <!-- - **Projects**
 
   - *Swellfun Chengdu*
 
-    - Aim to achieve LEED Gold for project campus
+    - Aimed to achieve LEED Gold for project campus
 
-    - Explore usage for artifical lake(4000 sqm) for rainwater collection and temporary store
+    - Explored usage for artifical lake(4000 sqm) for rainwater collection and temporary store
 
   - *BDR Jiaxing*
 
     - help project campus achieve LEED Platinum&Gold
 
-    - Inplement LCA(life cycle assessment) during design phase
+    - Implemented LCA(life cycle assessment) during design phase
 
-    - Customize outdoor shading and PV panels for project buildings
+    - Customized outdoor shading and PV panels for project buildings
 
-    - Inplement Sponge City with water tank underground, low elevation green belt and rain water reuse design for project building
+    - Implemented Sponge City with water tank underground, low elevation green belt and rain water reuse design for project building
 
   - *Intel Dalian*
 
